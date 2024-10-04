@@ -7,7 +7,7 @@ function LandingPage() {
   return (
     <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full h-screen bg-zinc-900 pt-1'>
       <div className='textstructure mt-40 px-20 '>
-        {["We create","Eye Opening","Presentation"].map((item, index)=>{
+        {["We Are","Technical Board"].map((item, index)=>{
             return (<div className='masker '>
               <div className="w-fit flex items-end ">
                 {index === 1 && (
@@ -15,7 +15,7 @@ function LandingPage() {
                   intial={{width: 0}} 
                   animate={{width: "15vw"}} 
                   transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}
-                  className="mr-[1vw] w-[8vw]  h-[5vw] relative top-[0.5vw] bg-red-500"></motion.div>)}
+                  className="mr-[1vw] w-[8vw]  h-[5vw] relative top-[0.5vw] bg-blue-500"></motion.div>)}
             <h1 className="pt-[2vw] -mb-[1vw] uppercase text-[6.5vw] leading-[6.46w] tracking-tighter text-8xl font-['Founders_Grotesk_X_Condensed font-bold'] font-semibold">{item}</h1>
               </div>
               </div>         
